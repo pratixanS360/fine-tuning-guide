@@ -71,6 +71,7 @@ def train_model():
     )
 
     # Train
+    print("Training:")
     trainer.train()
 
     # Save model

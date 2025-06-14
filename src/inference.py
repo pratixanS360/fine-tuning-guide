@@ -2,6 +2,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from transformers import pipeline
 import argparse
 
+# Parse arguments
 parser = argparse.ArgumentParser(description="Inference for fine tuned model")
 parser.add_argument('--model_name', type=str, default='bert-base-uncased', help='Base model name or path')
 parser.add_argument('--input', type=str, default=None, help='Input string for classification')
