@@ -16,7 +16,7 @@ model_name = args.model_name
 output_dir = args.output_dir
 model_path = f'{output_dir}/{model_name}'
 
-# Inference
+# Evaluate the model
 def evaluate_model():
     
     # Load model
