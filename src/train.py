@@ -3,6 +3,7 @@ from transformers import Trainer, TrainingArguments
 import torch
 from datasets import load_dataset
 import argparse
+import re
 
 # Parse arguments
 parser = argparse.ArgumentParser(description="Train a BERT model for sequence classification.")
@@ -73,8 +74,12 @@ def train_model():
     trainer.train()
 
     # Save model
-    trainer.save_model(output_dir)
-    tokenizer.save_pretrained(output_dir)
+    match = re.search(r'[^/]+$', model_name)
+    name = match.group(0)
+    print(name)
+    
+    trainer.save_model(f'{output_dir}/{name}')
+    tokenizer.save_pretrained(f'{output_dir}/{name}')
 
 if __name__ == "__main__":
     train_model()
