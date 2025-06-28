@@ -1,6 +1,6 @@
 ## A step by step guide to Fine Tuning a Language Model
 
-This repository contains scripts to **fine-tuning a pre-trained language model** (like BERT, GPT-2) using Hugging Face libraries.
+This repository contains scripts to **fine-tune a pre-trained language model** (like BERT, GPT-2) using Hugging Face libraries.
 
 ## What is Fine-Tuning?
 
