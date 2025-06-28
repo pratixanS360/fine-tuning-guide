@@ -1,5 +1,4 @@
-## A step by step guide to Fine Tuning a LLM
-### Using Huggingface
+## A step by step guide to Fine Tuning a Language Model
 
 This repository contains scripts to **fine-tuning a pre-trained language model** (like BERT, GPT-2) using Hugging Face libraries.
 
@@ -17,7 +16,7 @@ This allows the model to adapt to a specific domain or task, such as sentiment a
 | `transformers`      | Model loading and training             |
 | `datasets`          | Loading and preprocessing data         |
 | `accelerate`        | Efficient multi-device training        |
-| `evaluate` (opt.)   | Metrics like accuracy, F1              |
-| `peft` (opt.)       | Parameter-efficient tuning (e.g. LoRA) |
+| `evaluate`          | Metrics like accuracy, F1              |
+| `peft`              | Parameter-efficient tuning (e.g. LoRA) |
 
 ---
