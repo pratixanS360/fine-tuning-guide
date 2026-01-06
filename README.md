@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/python-3.9%2B-blue?logo=python&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/HuggingFace-Transformers-yellow?logo=huggingface&logoColor=black)
+![PEFT](https://img.shields.io/badge/PEFT-LoRA-green.svg)
+![Status](https://img.shields.io/badge/status-experimental-orange.svg)
+
 ## A step by step guide to Fine Tuning a Language Model
 
 This repository contains scripts to **fine-tune a pre-trained language model** (like BERT, GPT-2) using Hugging Face libraries.
